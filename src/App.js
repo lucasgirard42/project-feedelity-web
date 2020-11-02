@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import fire from "./firebase/firebaseConfig";
-import Login from "./Login";
-import Home from "./Home";
+import Login from "./views/Login";
+import Home from "./views/Home";
 
-class App extends Component {
+export default  class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,4 +29,4 @@ class App extends Component {
   }
 }
 
-export default App;
+

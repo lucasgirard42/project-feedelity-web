@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import fire from "./firebase/firebaseConfig";
+import fire from "../firebase/firebaseConfig";
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -19,4 +19,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+
