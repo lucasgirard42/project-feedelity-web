@@ -7,9 +7,10 @@ var firebaseConfig = {
     projectId: "feedelity-a7884",
     storageBucket: "feedelity-a7884.appspot.com",
     messagingSenderId: "350765539295",
-    measurementId: "G-06Y93JPGKG",
     appId: "1:350765539295:web:1ca6b185d8a56b4536ee6a",
+    measurementId: "G-06Y93JPGKG",
 };
 const fire = firebase.initializeApp(firebaseConfig);
+export const db = fire.database();
 
 export default fire;
